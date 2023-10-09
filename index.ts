@@ -1,6 +1,6 @@
 import readline from 'readline';
 import { adicionarProduto, listarItens, calcularValorTotal, calcularMediaDeValor, calcularQuantidadeTotal, removerProduto } from './controller/controleEstoque';
-import { Data } from './model/data.interface';
+import { Data } from './model/readCSV';
 
 const rl = readline.createInterface({
     input: process.stdin,

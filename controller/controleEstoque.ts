@@ -1,5 +1,5 @@
 import serviceEstoque from "../service/serviceEstoque";
-import { Data } from "../model/data.interface";
+import { Data } from "../model/readCSV";
 
 export async function adicionarProduto(data: Data){
     try{

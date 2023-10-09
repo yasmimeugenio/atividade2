@@ -1,4 +1,11 @@
 import fs from 'fs';
+
+export interface Data {
+  id:number;
+  title: string;
+  value: number;
+}
+
 import csv from 'csv-parser';
 import { Data } from './data.interface';
 

@@ -1,5 +1,5 @@
 import readCSV from '../model/readCSV'
-import { Data } from '../model/data.interface'
+import { Data } from '../model/readCSV'
 import writeCSV from '../model/writeCSV'
 import fs from 'fs'
 
